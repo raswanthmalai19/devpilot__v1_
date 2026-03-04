@@ -1,6 +1,169 @@
-*.pyc
-node_modules/
-.DS_Store
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.venv
+env.bak/
+venv.bak/
+conda-env/
+miniconda/
+miniforge/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+.gitkeep
+
+# Node/Extension
+node_modules/
+package-lock.json
+yarn.lock
+dist/
+out/
+
+# Environment variables & secrets
 .env
+.env.local
+.env.*.local
+credentials.json
+secrets/
+*.key
+*.pem
+.env.production
+.env.development
+
+# Logs
+*.log
+logs/
+log_*.txt
+error.log
+debug.log
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Data and models
+*.pth
+*.bin
+*.pt
+*.safetensors
+*.gguf
+*.ckpt
+models/download/
+data/
+datasets/
+cache/
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Test coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.pytest_cache/
+.hypothesis/
+
+# Build artifacts
+*.o
+*.a
+*.whl
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+.~*
+
+# Project specific
+runs/
+outputs/
+experiments/
+results/
+checkpoints/
+weights/
+temp/
+tmp/
+
+# API keys and sensitive data
+*_keys.txt
+*_tokens.txt
+credentials/
+.secrets
+
+# Large files
+*.csv
+*.sqlite
+*.db
+*.tar
+*.tar.gz
+*.zip
+
+# MacOS
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+[Dd]esktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# IDEs and editors
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/*
+*.iml
+
+# Python specific runtime files
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
